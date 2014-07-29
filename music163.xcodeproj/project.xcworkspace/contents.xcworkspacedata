@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MacGap.xcodeproj">
+      location = "self:music163.xcodeproj">
    </FileRef>
 </Workspace>

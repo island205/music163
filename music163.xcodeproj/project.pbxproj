@@ -15,6 +15,7 @@
 		6F169DB218CD906F005EDDF3 /* MenuProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F169DB018CD906F005EDDF3 /* MenuProxy.m */; };
 		6FD672B618FE618E00C0DAAD /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD672B518FE618E00C0DAAD /* UserDefaults.m */; };
 		6FD6E4ED18C2D48C00DFFBE6 /* fonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6E4EC18C2D48C00DFFBE6 /* fonts.m */; };
+		7DB04418196F817000F9AD91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB04417196F817000F9AD91 /* Images.xcassets */; };
 		88746BEE14CCA435001E160E /* JSEventHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88746BED14CCA435001E160E /* JSEventHelper.m */; };
 		88C0646014BDE10A00E4BCE2 /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0645F14BDE10A00E4BCE2 /* Window.m */; };
 		88C0646614BDEC5800E4BCE2 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C0646414BDEC5800E4BCE2 /* Window.xib */; };
@@ -70,6 +71,7 @@
 		6FD672B518FE618E00C0DAAD /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDefaults.m; path = Classes/Commands/UserDefaults.m; sourceTree = "<group>"; };
 		6FD6E4EB18C2D48200DFFBE6 /* fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fonts.h; path = Classes/Commands/fonts.h; sourceTree = "<group>"; };
 		6FD6E4EC18C2D48C00DFFBE6 /* fonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fonts.m; path = Classes/Commands/fonts.m; sourceTree = "<group>"; };
+		7DB04417196F817000F9AD91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = 163Music/Images.xcassets; sourceTree = "<group>"; };
 		88746BEC14CCA435001E160E /* JSEventHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSEventHelper.h; path = Classes/JSEventHelper.h; sourceTree = "<group>"; };
 		88746BED14CCA435001E160E /* JSEventHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSEventHelper.m; path = Classes/JSEventHelper.m; sourceTree = "<group>"; };
 		88C0645E14BDE10A00E4BCE2 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Window.h; path = Classes/Window.h; sourceTree = "<group>"; };
@@ -102,15 +104,15 @@
 		FA3250E414BA883A00BF0781 /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
 		FA3250E614BA8BCE00BF0781 /* application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = application.icns; sourceTree = SOURCE_ROOT; };
 		FA3F7741168F70780027B324 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		FAE451BA14BA79C600190544 /* MacGap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacGap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE451BA14BA79C600190544 /* music163.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = music163.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE451BE14BA79C600190544 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FAE451C114BA79C600190544 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FAE451C214BA79C600190544 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FAE451C314BA79C600190544 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FAE451C614BA79C600190544 /* MacGap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacGap-Info.plist"; sourceTree = "<group>"; };
+		FAE451C614BA79C600190544 /* music163-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "music163-Info.plist"; sourceTree = "<group>"; };
 		FAE451C814BA79C600190544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAE451CA14BA79C600190544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAE451CC14BA79C600190544 /* MacGap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacGap-Prefix.pch"; sourceTree = "<group>"; };
+		FAE451CC14BA79C600190544 /* music163-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "music163-Prefix.pch"; sourceTree = "<group>"; };
 		FAE451CE14BA79C600190544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FAE451D014BA79C600190544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAE451D114BA79C600190544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -189,9 +191,10 @@
 		FAE451AF14BA79C600190544 = {
 			isa = PBXGroup;
 			children = (
+				7DB04417196F817000F9AD91 /* Images.xcassets */,
 				FA3F7741168F70780027B324 /* Cocoa.framework */,
 				FA3250E414BA883A00BF0781 /* public */,
-				FAE451C414BA79C600190544 /* MacGap */,
+				FAE451C414BA79C600190544 /* music163 */,
 				FAE451BD14BA79C600190544 /* Frameworks */,
 				FAE451BB14BA79C600190544 /* Products */,
 			);
@@ -200,7 +203,7 @@
 		FAE451BB14BA79C600190544 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAE451BA14BA79C600190544 /* MacGap.app */,
+				FAE451BA14BA79C600190544 /* music163.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,7 +231,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		FAE451C414BA79C600190544 /* MacGap */ = {
+		FAE451C414BA79C600190544 /* music163 */ = {
 			isa = PBXGroup;
 			children = (
 				FA3250E014BA87B800BF0781 /* Classes */,
@@ -238,6 +241,7 @@
 				88C0646414BDEC5800E4BCE2 /* Window.xib */,
 				FAE451C514BA79C600190544 /* Supporting Files */,
 			);
+			name = music163;
 			path = MacGap;
 			sourceTree = "<group>";
 		};
@@ -245,10 +249,10 @@
 			isa = PBXGroup;
 			children = (
 				FA3250E614BA8BCE00BF0781 /* application.icns */,
-				FAE451C614BA79C600190544 /* MacGap-Info.plist */,
+				FAE451C614BA79C600190544 /* music163-Info.plist */,
 				FAE451C714BA79C600190544 /* InfoPlist.strings */,
 				FAE451CA14BA79C600190544 /* main.m */,
-				FAE451CC14BA79C600190544 /* MacGap-Prefix.pch */,
+				FAE451CC14BA79C600190544 /* music163-Prefix.pch */,
 				FAE451CD14BA79C600190544 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -257,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAE451B914BA79C600190544 /* MacGap */ = {
+		FAE451B914BA79C600190544 /* music163 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "MacGap" */;
+			buildConfigurationList = FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "music163" */;
 			buildPhases = (
 				FAE451B814BA79C600190544 /* Resources */,
 				FAE451B614BA79C600190544 /* Sources */,
@@ -270,9 +274,9 @@
 			);
 			dependencies = (
 			);
-			name = MacGap;
+			name = music163;
 			productName = MacGap;
-			productReference = FAE451BA14BA79C600190544 /* MacGap.app */;
+			productReference = FAE451BA14BA79C600190544 /* music163.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -284,7 +288,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Twitter;
 			};
-			buildConfigurationList = FAE451B414BA79C600190544 /* Build configuration list for PBXProject "MacGap" */;
+			buildConfigurationList = FAE451B414BA79C600190544 /* Build configuration list for PBXProject "music163" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -296,7 +300,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAE451B914BA79C600190544 /* MacGap */,
+				FAE451B914BA79C600190544 /* music163 */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +312,7 @@
 			files = (
 				FA3250E514BA883A00BF0781 /* public in Resources */,
 				FAE451C914BA79C600190544 /* InfoPlist.strings in Resources */,
+				7DB04418196F817000F9AD91 /* Images.xcassets in Resources */,
 				FAE451CF14BA79C600190544 /* Credits.rtf in Resources */,
 				FAE451D514BA79C600190544 /* MainMenu.xib in Resources */,
 				FA3250E714BA8BCE00BF0781 /* application.icns in Resources */,
@@ -434,6 +439,7 @@
 		FAE451D914BA79C600190544 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -442,11 +448,11 @@
 					"\"$(SRCROOT)/MacGap\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacGap/MacGap-Prefix.pch";
+				GCC_PREFIX_HEADER = "MacGap/music163-Prefix.pch";
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "MacGap/MacGap-Info.plist";
+				INFOPLIST_FILE = "MacGap/music163-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = music163;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +461,7 @@
 		FAE451DA14BA79C600190544 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -463,11 +470,11 @@
 					"\"$(SRCROOT)/MacGap\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacGap/MacGap-Prefix.pch";
+				GCC_PREFIX_HEADER = "MacGap/music163-Prefix.pch";
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "MacGap/MacGap-Info.plist";
+				INFOPLIST_FILE = "MacGap/music163-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = music163;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAE451B414BA79C600190544 /* Build configuration list for PBXProject "MacGap" */ = {
+		FAE451B414BA79C600190544 /* Build configuration list for PBXProject "music163" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAE451D614BA79C600190544 /* Debug */,
@@ -485,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "MacGap" */ = {
+		FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "music163" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAE451D914BA79C600190544 /* Debug */,
